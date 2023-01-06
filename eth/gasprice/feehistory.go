@@ -26,11 +26,11 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/dhanuxcoin/go-jumbo/common"
+	"github.com/dhanuxcoin/go-jumbo/consensus/misc"
+	"github.com/dhanuxcoin/go-jumbo/core/types"
+	"github.com/dhanuxcoin/go-jumbo/log"
+	"github.com/dhanuxcoin/go-jumbo/rpc"
 )
 
 var (

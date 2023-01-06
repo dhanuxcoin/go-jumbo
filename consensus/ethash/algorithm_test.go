@@ -26,9 +26,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/dhanuxcoin/go-jumbo/common"
+	"github.com/dhanuxcoin/go-jumbo/common/hexutil"
+	"github.com/dhanuxcoin/go-jumbo/core/types"
 )
 
 // prepare converts an ethash cache or dataset from a byte stream into the internal

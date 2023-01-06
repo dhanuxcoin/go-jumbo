@@ -27,20 +27,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/beacon"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/dhanuxcoin/go-jumbo/common"
+	"github.com/dhanuxcoin/go-jumbo/common/math"
+	"github.com/dhanuxcoin/go-jumbo/consensus"
+	"github.com/dhanuxcoin/go-jumbo/consensus/beacon"
+	"github.com/dhanuxcoin/go-jumbo/consensus/ethash"
+	"github.com/dhanuxcoin/go-jumbo/core/rawdb"
+	"github.com/dhanuxcoin/go-jumbo/core/state"
+	"github.com/dhanuxcoin/go-jumbo/core/types"
+	"github.com/dhanuxcoin/go-jumbo/core/vm"
+	"github.com/dhanuxcoin/go-jumbo/crypto"
+	"github.com/dhanuxcoin/go-jumbo/eth/tracers/logger"
+	"github.com/dhanuxcoin/go-jumbo/ethdb"
+	"github.com/dhanuxcoin/go-jumbo/params"
+	"github.com/dhanuxcoin/go-jumbo/trie"
 )
 
 // So we can deterministically seed different blockchains
@@ -1703,7 +1703,7 @@ func TestEIP161AccountRemoval(t *testing.T) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/ethereum/go-ethereum/pull/15941
+// https://github.com/dhanuxcoin/go-jumbo/pull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()
@@ -1985,8 +1985,8 @@ func TestInsertReceiptChainRollback(t *testing.T) {
 // overtake the 'canon' chain until after it's passed canon by about 200 blocks.
 //
 // Details at:
-//  - https://github.com/ethereum/go-ethereum/issues/18977
-//  - https://github.com/ethereum/go-ethereum/pull/18988
+//  - https://github.com/dhanuxcoin/go-jumbo/issues/18977
+//  - https://github.com/dhanuxcoin/go-jumbo/pull/18988
 func TestLowDiffLongChain(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()

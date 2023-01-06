@@ -22,14 +22,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/protocols/diff"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/eth/protocols/trust"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/dhanuxcoin/go-jumbo/common"
+	"github.com/dhanuxcoin/go-jumbo/core"
+	"github.com/dhanuxcoin/go-jumbo/eth/downloader"
+	"github.com/dhanuxcoin/go-jumbo/eth/protocols/diff"
+	"github.com/dhanuxcoin/go-jumbo/eth/protocols/eth"
+	"github.com/dhanuxcoin/go-jumbo/eth/protocols/snap"
+	"github.com/dhanuxcoin/go-jumbo/eth/protocols/trust"
+	"github.com/dhanuxcoin/go-jumbo/p2p"
 )
 
 var (

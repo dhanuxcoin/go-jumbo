@@ -24,12 +24,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/dhanuxcoin/go-jumbo/common"
+	"github.com/dhanuxcoin/go-jumbo/common/hexutil"
+	"github.com/dhanuxcoin/go-jumbo/common/math"
+	"github.com/dhanuxcoin/go-jumbo/core/types"
+	"github.com/dhanuxcoin/go-jumbo/core/vm"
+	"github.com/dhanuxcoin/go-jumbo/params"
 	"github.com/holiman/uint256"
 )
 

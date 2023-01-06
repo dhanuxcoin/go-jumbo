@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/rlp/internal/rlpstruct"
+	"github.com/dhanuxcoin/go-jumbo/rlp/internal/rlpstruct"
 )
 
 var (

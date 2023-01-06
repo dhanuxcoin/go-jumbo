@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/dhanuxcoin/go-jumbo/core/types"
 )
 
 type ReceiptProcessor interface {

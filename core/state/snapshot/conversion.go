@@ -26,14 +26,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/gopool"
+	"github.com/dhanuxcoin/go-jumbo/common/gopool"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/dhanuxcoin/go-jumbo/common"
+	"github.com/dhanuxcoin/go-jumbo/core/rawdb"
+	"github.com/dhanuxcoin/go-jumbo/ethdb"
+	"github.com/dhanuxcoin/go-jumbo/log"
+	"github.com/dhanuxcoin/go-jumbo/rlp"
+	"github.com/dhanuxcoin/go-jumbo/trie"
 )
 
 // trieKV represents a trie key-value pair

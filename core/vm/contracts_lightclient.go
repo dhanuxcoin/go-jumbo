@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core/vm/lightclient"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/dhanuxcoin/go-jumbo/core/vm/lightclient"
+	"github.com/dhanuxcoin/go-jumbo/params"
 )
 
 const (

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/dhanuxcoin/go-jumbo/core"
+	"github.com/dhanuxcoin/go-jumbo/metrics"
+	"github.com/dhanuxcoin/go-jumbo/p2p"
+	"github.com/dhanuxcoin/go-jumbo/p2p/enode"
+	"github.com/dhanuxcoin/go-jumbo/p2p/enr"
+	"github.com/dhanuxcoin/go-jumbo/rlp"
 )
 
 const (

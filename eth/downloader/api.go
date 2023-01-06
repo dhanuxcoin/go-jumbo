@@ -20,10 +20,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/dhanuxcoin/go-jumbo"
+	"github.com/dhanuxcoin/go-jumbo/common/gopool"
+	"github.com/dhanuxcoin/go-jumbo/event"
+	"github.com/dhanuxcoin/go-jumbo/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

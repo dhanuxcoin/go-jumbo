@@ -22,12 +22,12 @@ import (
 	"os"
 	"strings"
 
+	"github.com/dhanuxcoin/go-jumbo/internal/ethapi"
+	"github.com/dhanuxcoin/go-jumbo/internal/jsre/deps"
+	"github.com/dhanuxcoin/go-jumbo/log"
+	"github.com/dhanuxcoin/go-jumbo/signer/core"
+	"github.com/dhanuxcoin/go-jumbo/signer/storage"
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/jsre/deps"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/storage"
 )
 
 var (

@@ -3,9 +3,9 @@ package eth
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/protocols/trust"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/dhanuxcoin/go-jumbo/core"
+	"github.com/dhanuxcoin/go-jumbo/eth/protocols/trust"
+	"github.com/dhanuxcoin/go-jumbo/p2p/enode"
 )
 
 // trustHandler implements the trust.Backend interface to handle the various network

@@ -23,10 +23,10 @@ import (
 
 	mapset "github.com/deckarep/golang-set"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/dhanuxcoin/go-jumbo/common"
+	"github.com/dhanuxcoin/go-jumbo/core/types"
+	"github.com/dhanuxcoin/go-jumbo/p2p"
+	"github.com/dhanuxcoin/go-jumbo/rlp"
 )
 
 const (

@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/dhanuxcoin/go-jumbo/rpc"
 )
 
 func TestFeeHistory(t *testing.T) {

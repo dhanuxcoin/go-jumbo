@@ -34,11 +34,11 @@ import (
 	"unsafe"
 
 	"github.com/edsrzf/mmap-go"
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/dhanuxcoin/go-jumbo/common/gopool"
+	"github.com/dhanuxcoin/go-jumbo/consensus"
+	"github.com/dhanuxcoin/go-jumbo/log"
+	"github.com/dhanuxcoin/go-jumbo/metrics"
+	"github.com/dhanuxcoin/go-jumbo/rpc"
 	"github.com/hashicorp/golang-lru/simplelru"
 )
 

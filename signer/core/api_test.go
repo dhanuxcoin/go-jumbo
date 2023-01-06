@@ -27,20 +27,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/dhanuxcoin/go-jumbo/accounts"
+	"github.com/dhanuxcoin/go-jumbo/accounts/keystore"
+	"github.com/dhanuxcoin/go-jumbo/common"
+	"github.com/dhanuxcoin/go-jumbo/common/hexutil"
+	"github.com/dhanuxcoin/go-jumbo/core/types"
+	"github.com/dhanuxcoin/go-jumbo/internal/ethapi"
+	"github.com/dhanuxcoin/go-jumbo/rlp"
+	"github.com/dhanuxcoin/go-jumbo/signer/core"
+	"github.com/dhanuxcoin/go-jumbo/signer/core/apitypes"
+	"github.com/dhanuxcoin/go-jumbo/signer/fourbyte"
+	"github.com/dhanuxcoin/go-jumbo/signer/storage"
 )
 
-//Used for testing
+// Used for testing
 type headlessUi struct {
 	approveCh chan string // to send approve/deny
 	inputCh   chan string // to send password

@@ -23,11 +23,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/dhanuxcoin/go-jumbo/common"
+	"github.com/dhanuxcoin/go-jumbo/common/math"
+	"github.com/dhanuxcoin/go-jumbo/crypto"
+	"github.com/dhanuxcoin/go-jumbo/params"
+	"github.com/dhanuxcoin/go-jumbo/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

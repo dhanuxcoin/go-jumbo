@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/dhanuxcoin/go-jumbo/common"
+	"github.com/dhanuxcoin/go-jumbo/common/math"
+	"github.com/dhanuxcoin/go-jumbo/core/rawdb"
+	"github.com/dhanuxcoin/go-jumbo/core/state"
+	"github.com/dhanuxcoin/go-jumbo/params"
 )
 
 var loopInterruptTests = []string{

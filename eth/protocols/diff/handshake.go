@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/gopool"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/dhanuxcoin/go-jumbo/common/gopool"
+	"github.com/dhanuxcoin/go-jumbo/p2p"
 )
 
 const (

@@ -20,10 +20,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/dhanuxcoin/go-jumbo/common"
+	"github.com/dhanuxcoin/go-jumbo/core/forkid"
+	"github.com/dhanuxcoin/go-jumbo/p2p"
+	"github.com/dhanuxcoin/go-jumbo/p2p/enode"
 )
 
 // Tests that handshake failures are detected and reported correctly.

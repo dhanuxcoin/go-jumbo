@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/dhanuxcoin/go-jumbo/consensus"
+	"github.com/dhanuxcoin/go-jumbo/core/types"
 )
 
 const (

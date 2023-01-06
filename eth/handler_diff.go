@@ -19,9 +19,9 @@ package eth
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/protocols/diff"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/dhanuxcoin/go-jumbo/core"
+	"github.com/dhanuxcoin/go-jumbo/eth/protocols/diff"
+	"github.com/dhanuxcoin/go-jumbo/p2p/enode"
 )
 
 // diffHandler implements the diff.Backend interface to handle the various network

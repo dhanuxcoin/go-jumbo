@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/vm/lightclient"
+	"github.com/dhanuxcoin/go-jumbo/core/vm/lightclient"
 	"github.com/stretchr/testify/require"
 )
 

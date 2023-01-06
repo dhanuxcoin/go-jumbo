@@ -3,10 +3,10 @@ package diff
 import (
 	"math/rand"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/dhanuxcoin/go-jumbo/common"
+	"github.com/dhanuxcoin/go-jumbo/log"
+	"github.com/dhanuxcoin/go-jumbo/p2p"
+	"github.com/dhanuxcoin/go-jumbo/rlp"
 )
 
 const maxQueuedDiffLayers = 12

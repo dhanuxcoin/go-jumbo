@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/dhanuxcoin/go-jumbo/common"
 )
 
 //go:generate go run github.com/fjl/gencodec@latest -type AccessTuple -out gen_access_tuple.go
